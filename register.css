@@ -1,0 +1,40 @@
+.container {
+    width: 300px;
+    margin:  auto;
+    margin-top: 12%;
+    padding: 20px;
+    border: 1px solid goldenrod;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+button[type="submit"] {
+    margin-bottom: 3%;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.3);
+}
+
